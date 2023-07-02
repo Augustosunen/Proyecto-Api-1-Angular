@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto-Api';
+  onButtonClick():void{
+    console.log('clicked')
+  }
 }
